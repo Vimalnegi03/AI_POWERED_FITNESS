@@ -140,37 +140,37 @@ function takeCommand(message)
         else if(message.includes("back"))
         {
             speak("ok sir")
-            window.open("http://127.0.0.1:5500/back.html","_self")
+            window.open("https://vickyfitness.netlify.app/back","_self")
         }
         else if(message.includes("chest"))
             {
                 speak("ok sir")
-                window.open("http://127.0.0.1:5500/chest.html","_self")
+                window.open("https://vickyfitness.netlify.app/chest","_self")
             }
             else if(message.includes("leg"))
                 {
                     speak("ok sir")
-                    window.open("http://127.0.0.1:5500/leg.html","_self")
+                    window.open("https://vickyfitness.netlify.app/leg","_self")
                 }
                 else if(message.includes("shoulder"))
                     {
                         speak("ok sir")
-                        window.open("http://127.0.0.1:5500/shoulder.html","_self")
+                        window.open("https://vickyfitness.netlify.app/shoulder","_self")
                     }
                     else if(message.includes("biceps")||message.includes("triceps"))
                         {
                             speak("ok sir")
-                            window.open("http://127.0.0.1:5500/biceps-triceps.html","_self")
+                            window.open("https://vickyfitness.netlify.app/biceps-triceps","_self")
                         }
                          else if(message.includes("workout"))
                         {
                             speak("ok sir")
-                            window.open("http://127.0.0.1:5500/workout.html","_self")
+                            window.open("https://vickyfitness.netlify.app/workout","_self")
                         }
                         else if(message.includes("home"))
                         {
                             speak("ok sir")
-                            window.open("http://127.0.0.1:5500/index.html","_self")
+                            window.open("https://vickyfitness.netlify.app/","_self")
                         }
                        else if(message.includes('who are you'))
                             {
